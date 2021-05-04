@@ -1,0 +1,1077 @@
+.root {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  background: #ffffff;
+}
+.mntn {
+  filter: drop-shadow(0px 0px 50px rgba(0, 0, 0, 0.2));
+  width: 1920px;
+  height: 4600px;
+  display: block;
+  overflow: hidden;
+  flex-shrink: 0;
+  background: rgba(11, 29, 38, 1);
+}
+.hg {
+  width: 1920px;
+  height: 1513px;
+  display: block;
+  position: absolute;
+  top: -400px;
+  left: 0px;
+  background: url("/plasmic/blank_project/images/hg.png") center center / cover no-repeat padding-box
+    border-box scroll;
+}
+.bgHero {
+  width: 1920px;
+  height: 1200px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: linear-gradient(
+      -160.23deg,
+      rgba(11, 29, 38, 0) 66.62%,
+      rgba(11, 29, 38, 1) 144.35%
+    )
+    0% 0% / 100% 100% no-repeat padding-box border-box scroll;
+}
+.content {
+  width: auto;
+  height: auto;
+  display: inline-flex;
+  position: absolute;
+  top: 287px;
+  left: 500px;
+  overflow: hidden;
+  flex-direction: column;
+}
+.content > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: calc(0px - 32px);
+  height: calc(100% + 32px);
+}
+.content > :global(.__wab_flex-container) > *,
+.content > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 32px;
+}
+.group17 {
+  width: 316px;
+  height: 22px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.box__g8D9M {
+  display: block;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: "Gilroy";
+  font-weight: 800;
+  letter-spacing: 6px;
+  color: rgba(250, 214, 131, 1);
+  position: absolute;
+  top: 0px;
+  left: 104px;
+}
+.rectangle21 {
+  transform: skew(-0.057295760414500616deg, 0deg);
+  width: 72px;
+  height: 2px;
+  display: block;
+  transform-origin: top left;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  background: rgba(250, 214, 131, 1);
+}
+.box__ubfgp {
+  display: block;
+  font-size: 88px;
+  text-transform: capitalize;
+  font-family: "Chronicle Display";
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 100px;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  width: 950px;
+}
+.group7 {
+  width: 126px;
+  height: 24px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.equipment {
+  display: block;
+  font-size: 18px;
+  font-family: "Gilroy";
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 1px;
+  left: 0px;
+}
+.svg___0GkWb {
+  position: absolute;
+  object-fit: none;
+  width: 16px;
+  height: 24px;
+  color: #fff;
+  display: block;
+  top: 0px;
+  left: 110px;
+}
+.mg {
+  width: 1920px;
+  height: 1422px;
+  display: block;
+  position: absolute;
+  top: 464px;
+  left: 0px;
+  background: url("/plasmic/blank_project/images/mg.png") center center / cover no-repeat
+    padding-box border-box scroll;
+}
+.vg {
+  width: 1920px;
+  height: 926px;
+  display: block;
+  position: absolute;
+  top: 768px;
+  left: 0px;
+  background: url("/plasmic/blank_project/images/vg.png") center center / cover no-repeat
+    padding-box border-box scroll;
+}
+.bgContent {
+  width: 1920px;
+  height: 700px;
+  display: block;
+  position: absolute;
+  top: 1200px;
+  left: 0px;
+  background: linear-gradient(
+      180.13deg,
+      rgba(11, 29, 38, 0) 0.35%,
+      rgba(11, 29, 38, 1) 61.31%
+    )
+    0% 0% / 100% 100% no-repeat padding-box border-box scroll;
+}
+.box__pBsG {
+  display: block;
+  font-size: 18px;
+  font-family: "Gilroy";
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 359px;
+  left: 104px;
+  transform: scale(1.000000499999875, 1.0000004999998748)
+    rotate(90.0572957604145deg);
+  transform-origin: top left;
+}
+.svg__jybas {
+  position: absolute;
+  object-fit: none;
+  width: 24px;
+  height: 24px;
+  color: #fff;
+  display: block;
+  top: 460px;
+  left: 80px;
+}
+.svg__xNQx {
+  position: absolute;
+  object-fit: none;
+  width: 24px;
+  height: 24px;
+  color: #fff;
+  display: block;
+  top: 508px;
+  left: 80px;
+}
+.slider {
+  filter: drop-shadow(0px 0px 50px rgba(0, 0, 0, 0.2));
+  width: 77px;
+  height: 240px;
+  display: block;
+  position: absolute;
+  top: 326px;
+  left: 1763px;
+}
+.slider2 {
+  width: 3px;
+  height: 240px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 74px;
+}
+.sliderBg {
+  opacity: 0.5;
+  transform: skew(-0.057295760414500616deg, 0deg);
+  width: 3px;
+  height: 240px;
+  display: block;
+  transform-origin: top left;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: rgba(255, 255, 255, 1);
+}
+.sliderIndicator {
+  transform: skew(-0.057295760414500616deg, 0deg);
+  width: 3px;
+  height: 60px;
+  display: block;
+  transform-origin: top left;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: rgba(255, 255, 255, 1);
+}
+.text {
+  width: 42px;
+  height: 208px;
+  display: block;
+  position: absolute;
+  top: 16px;
+  left: 0px;
+}
+.frame1 {
+  width: auto;
+  height: auto;
+  display: inline-flex;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  flex-direction: column;
+}
+.frame1 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  margin-top: calc(0px - 40px);
+  height: calc(100% + 40px);
+}
+.frame1 > :global(.__wab_flex-container) > *,
+.frame1 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 40px;
+}
+.box__hV3Nz {
+  display: block;
+  font-size: 18px;
+  text-align: right;
+  font-family: "Gilroy";
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+}
+.box__otf3I {
+  display: block;
+  font-size: 18px;
+  text-align: right;
+  font-family: "Gilroy";
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+}
+.box__gSw2Y {
+  display: block;
+  font-size: 18px;
+  text-align: right;
+  font-family: "Gilroy";
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+}
+.box__et5Iz {
+  display: block;
+  font-size: 18px;
+  text-align: right;
+  font-family: "Gilroy";
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+}
+.header {
+  width: 1760px;
+  height: 25px;
+  display: block;
+  position: absolute;
+  top: 64px;
+  left: 80px;
+  overflow: hidden;
+}
+.box__cUHh {
+  display: block;
+  font-size: 18px;
+  font-family: "Gilroy";
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 2px;
+  left: 984px;
+}
+.box__twOgw {
+  display: block;
+  font-size: 18px;
+  font-family: "Gilroy";
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 2px;
+  left: 869px;
+}
+.box__aqkhH {
+  display: block;
+  font-size: 18px;
+  font-family: "Gilroy";
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 2px;
+  left: 739px;
+}
+.box__rcdUf {
+  display: block;
+  font-size: 17px;
+  font-family: "Gilroy";
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 3px;
+  left: 1694px;
+}
+.svg__dRfgC {
+  position: absolute;
+  object-fit: none;
+  width: 24px;
+  height: 24px;
+  color: #fff;
+  display: block;
+  top: 1px;
+  left: 1662px;
+}
+.logo {
+  width: 108px;
+  height: 24px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.box__epMnD {
+  display: block;
+  font-size: 32px;
+  text-transform: capitalize;
+  font-family: "Chronicle Display";
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: -6px;
+  left: 0px;
+}
+.box__dw6Y7 {
+  display: block;
+  font-size: 32px;
+  text-transform: capitalize;
+  font-family: "Chronicle Display";
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: -6px;
+  left: 32px;
+}
+.box__xur7 {
+  display: block;
+  font-size: 32px;
+  text-transform: capitalize;
+  font-family: "Chronicle Display";
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: -6px;
+  left: 58px;
+}
+.box__xPzhu {
+  display: block;
+  font-size: 32px;
+  text-transform: capitalize;
+  font-family: "Chronicle Display";
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: -6px;
+  left: 82px;
+}
+.content2 {
+  width: auto;
+  height: auto;
+  display: inline-flex;
+  position: absolute;
+  top: 1440px;
+  left: 229px;
+  overflow: hidden;
+  flex-direction: column;
+}
+.content2 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: calc(0px - 200px);
+  height: calc(100% + 200px);
+}
+.content2 > :global(.__wab_flex-container) > *,
+.content2 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 200px;
+}
+.content3 {
+  width: 1462px;
+  height: 720px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.equipment2 {
+  opacity: 0.1;
+  display: block;
+  font-size: 240px;
+  font-family: "Gilroy";
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 240px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 5.27%;
+  left: 0%;
+}
+._01 {
+  width: 38.71%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 61.28%;
+  background: url("/plasmic/blank_project/images/_01.png") center center / cover no-repeat padding-box
+    border-box scroll;
+}
+.content4 {
+  width: auto;
+  height: auto;
+  display: inline-flex;
+  position: absolute;
+  top: 19.58%;
+  left: 10.25%;
+  overflow: hidden;
+  flex-direction: column;
+}
+.content4 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: calc(0px - 27px);
+  height: calc(100% + 27px);
+}
+.content4 > :global(.__wab_flex-container) > *,
+.content4 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 27px;
+}
+.tagline {
+  width: 268px;
+  height: 22px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.box__fMjo8 {
+  display: block;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: "Gilroy";
+  font-weight: 800;
+  letter-spacing: 6px;
+  color: rgba(250, 214, 131, 1);
+  position: absolute;
+  top: 0px;
+  left: 96px;
+}
+.line {
+  transform: skew(-0.057295760414500616deg, 0deg);
+  width: 72px;
+  height: 2px;
+  display: block;
+  transform-origin: top left;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  background: rgba(250, 214, 131, 1);
+}
+.box__pm2Xf {
+  display: block;
+  font-size: 64px;
+  font-family: "Chronicle Display";
+  font-weight: 600;
+  letter-spacing: 0em;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  width: 555px;
+}
+.determiningWhatLevelOfHikerYouAreCanBeAnImportantToolWhenPlanningFutureHikesThisHikingLevelGuideWillHelpYouPlanHikesAccordingToDifferentHikeRatingsSetByVariousWebsitesLikeAllTrailsAndModernHikerWhatTypeOfHikerAreYouNoviceModerateAdvancedModerateExpertOrExpertBackpacker {
+  display: block;
+  font-size: 18px;
+  font-family: "Gilroy";
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  width: 632px;
+}
+.more {
+  width: 127px;
+  height: 22px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.equipment3 {
+  display: block;
+  font-size: 18px;
+  font-family: "Gilroy";
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: rgba(250, 214, 131, 1);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.svg__dbRXg {
+  position: absolute;
+  object-fit: none;
+  width: 16px;
+  height: 24px;
+  color: #fbd784;
+  display: block;
+  transform-origin: top left;
+  transform: scale(1.000000499999875, 1.0000004999998748)
+    rotate(-90.0572957604145deg);
+  top: 19px;
+  left: 103px;
+}
+.content5 {
+  width: 1462px;
+  height: 720px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+._012 {
+  width: 38.71%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background: url("/plasmic/blank_project/images/_012.jpeg") -144.74045801526717px 0px / 1080.1526717557251px
+    720px no-repeat padding-box border-box scroll;
+}
+.equipment4 {
+  opacity: 0.1;
+  display: block;
+  font-size: 240px;
+  font-family: "Gilroy";
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 240px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 5.27%;
+  left: 46.51%;
+}
+.content6 {
+  width: auto;
+  height: auto;
+  display: inline-flex;
+  position: absolute;
+  top: 19.58%;
+  left: 56.77%;
+  overflow: hidden;
+  flex-direction: column;
+}
+.content6 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: calc(0px - 27px);
+  height: calc(100% + 27px);
+}
+.content6 > :global(.__wab_flex-container) > *,
+.content6 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 27px;
+}
+.tagline2 {
+  width: 354px;
+  height: 22px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.box__iCqAo {
+  display: block;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: "Gilroy";
+  font-weight: 800;
+  letter-spacing: 6px;
+  color: rgba(250, 214, 131, 1);
+  position: absolute;
+  top: 0px;
+  left: 96px;
+}
+.line2 {
+  transform: skew(-0.057295760414500616deg, 0deg);
+  width: 72px;
+  height: 2px;
+  display: block;
+  transform-origin: top left;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  background: rgba(250, 214, 131, 1);
+}
+.box__vns4X {
+  display: block;
+  font-size: 64px;
+  font-family: "Chronicle Display";
+  font-weight: 600;
+  letter-spacing: 0em;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  width: 555px;
+}
+.box__xcFkm {
+  display: block;
+  font-size: 18px;
+  font-family: "Gilroy";
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  width: 632px;
+}
+.more2 {
+  width: 127px;
+  height: 22px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.equipment5 {
+  display: block;
+  font-size: 18px;
+  font-family: "Gilroy";
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: rgba(250, 214, 131, 1);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.svg__iYrLu {
+  position: absolute;
+  object-fit: none;
+  width: 16px;
+  height: 24px;
+  color: #fbd784;
+  display: block;
+  transform-origin: top left;
+  transform: scale(1.000000499999875, 1.0000004999998748)
+    rotate(-90.0572957604145deg);
+  top: 19px;
+  left: 103px;
+}
+.content7 {
+  width: 1462px;
+  height: 720px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.equipment6 {
+  opacity: 0.1;
+  display: block;
+  font-size: 240px;
+  font-family: "Gilroy";
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 240px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 5.27%;
+  left: 0%;
+}
+._013 {
+  width: 38.71%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 61.28%;
+  background: url("/plasmic/blank_project/images/_013.png") center center / cover no-repeat
+    padding-box border-box scroll;
+}
+.content8 {
+  width: auto;
+  height: auto;
+  display: inline-flex;
+  position: absolute;
+  top: 19.58%;
+  left: 10.25%;
+  overflow: hidden;
+  flex-direction: column;
+}
+.content8 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: calc(0px - 27px);
+  height: calc(100% + 27px);
+}
+.content8 > :global(.__wab_flex-container) > *,
+.content8 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 27px;
+}
+.tagline3 {
+  width: 454px;
+  height: 22px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.box__h06Mm {
+  display: block;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: "Gilroy";
+  font-weight: 800;
+  letter-spacing: 6px;
+  color: rgba(250, 214, 131, 1);
+  position: absolute;
+  top: 0px;
+  left: 96px;
+}
+.line3 {
+  transform: skew(-0.057295760414500616deg, 0deg);
+  width: 72px;
+  height: 2px;
+  display: block;
+  transform-origin: top left;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  background: rgba(250, 214, 131, 1);
+}
+.box__uprPs {
+  display: block;
+  font-size: 64px;
+  font-family: "Chronicle Display";
+  font-weight: 600;
+  letter-spacing: 0em;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  width: 555px;
+}
+.box__otXag {
+  display: block;
+  font-size: 18px;
+  font-family: "Gilroy";
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  width: 632px;
+}
+.more3 {
+  width: 127px;
+  height: 22px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.equipment7 {
+  display: block;
+  font-size: 18px;
+  font-family: "Gilroy";
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: rgba(250, 214, 131, 1);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.svg__eBzCb {
+  position: absolute;
+  object-fit: none;
+  width: 16px;
+  height: 24px;
+  color: #fbd784;
+  display: block;
+  transform-origin: top left;
+  transform: scale(1.000000499999875, 1.0000004999998748)
+    rotate(-90.0572957604145deg);
+  top: 19px;
+  left: 103px;
+}
+.footer {
+  width: 1462px;
+  height: 280px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.logo2 {
+  width: 108px;
+  height: 38px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.box___03Ur0 {
+  display: block;
+  font-size: 32px;
+  text-transform: capitalize;
+  font-family: "Chronicle Display";
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.box___5NPvu {
+  display: block;
+  font-size: 32px;
+  text-transform: capitalize;
+  font-family: "Chronicle Display";
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 0px;
+  left: 32px;
+}
+.box__zT4Uk {
+  display: block;
+  font-size: 32px;
+  text-transform: capitalize;
+  font-family: "Chronicle Display";
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 0px;
+  left: 58px;
+}
+.box__tJ4HK {
+  display: block;
+  font-size: 32px;
+  text-transform: capitalize;
+  font-family: "Chronicle Display";
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 0px;
+  left: 82px;
+}
+.box__dvpHj {
+  display: block;
+  font-size: 18px;
+  font-family: "Gilroy";
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 62px;
+  left: 0px;
+  width: 303px;
+}
+.links {
+  width: 193px;
+  height: 280px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 896px;
+}
+.box___8L3Q7 {
+  display: block;
+  font-size: 24px;
+  font-family: "Gilroy";
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: rgba(250, 214, 131, 1);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.box__zoECm {
+  display: block;
+  font-size: 18px;
+  font-family: "Gilroy";
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 56px;
+  left: 0px;
+}
+.box___1RtkX {
+  display: block;
+  font-size: 18px;
+  font-family: "Gilroy";
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 104px;
+  left: 0px;
+}
+.box__gdMfa {
+  display: block;
+  font-size: 18px;
+  font-family: "Gilroy";
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 152px;
+  left: 0px;
+}
+.box__gkuDr {
+  display: block;
+  font-size: 18px;
+  font-family: "Gilroy";
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 200px;
+  left: 0px;
+}
+.box__rXqQd {
+  display: block;
+  font-size: 18px;
+  font-family: "Gilroy";
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 248px;
+  left: 0px;
+}
+.links2 {
+  width: 161px;
+  height: 184px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 1301px;
+}
+.box__tqAs3 {
+  display: block;
+  font-size: 24px;
+  font-family: "Gilroy";
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: rgba(250, 214, 131, 1);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.box__aD6N {
+  display: block;
+  font-size: 18px;
+  font-family: "Gilroy";
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 56px;
+  left: 0px;
+}
+.box__sLv4F {
+  display: block;
+  font-size: 18px;
+  font-family: "Gilroy";
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 104px;
+  left: 0px;
+}
+.box__inCmB {
+  display: block;
+  font-size: 18px;
+  font-family: "Gilroy";
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 152px;
+  left: 0px;
+}
+.box__v6IJ {
+  opacity: 0.5;
+  display: block;
+  font-size: 18px;
+  font-family: "Gilroy";
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 248px;
+  left: 6px;
+  transform: translate(0.06200000000000028px, 0px);
+}
